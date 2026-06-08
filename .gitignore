@@ -1,0 +1,26 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig.old
+sdkconfig.defaults.old
+dependencies.lock
+
+# ESP-IDF component manager
+managed_components/
+
+# Captures and local logs
+*.pcap
+*.pcapng
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
